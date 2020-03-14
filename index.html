@@ -45,12 +45,13 @@
                                 <tr>
                                     <th scope="col">Train Name</th>
                                     <th scope="col">Destination</th>
-                                    <th scope="col">Frequency</th>
+                                    <th scope="col">Frequency (min)</th>
                                     <th scope="col">Next Arrival</th>
                                     <th scope="col">Minutes Away</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="display-body">
+                                 <!-- Data from Firebase will be appended here -->
                             </tbody>
                         </table>
                     </div>
@@ -76,8 +77,8 @@
                                 <input class="form-control" id="destination-input" placeholder="Georgia" type="text">
                             </div>
                             <div class="form-group">
-                                <label for="start-input">First Train (HH:mm - military time)</label>
-                                <input class="form-control" id="start-input" placeholder="00:00 AM" type="text">
+                                <label for="first-train-input">First Train (HH:mm - military time)</label>
+                                <input class="form-control" id="first-train-input" placeholder="00:00 AM" type="text">
                             </div>
                             <div class="form-group">
                                 <label for="frequency-input">Frequency (min)</label>
