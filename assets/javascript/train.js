@@ -50,3 +50,42 @@ $("#add-train-btn").on("click", function (event) {
     $("#first-train-input").val("");
     $("#frequency-input").val("");
 });
+
+// Per class - this creates a Firebase event for adding a train to the database
+// This also creates a row in the html when a user does their train search
+database.ref().on("child_added", function (childSnapshot) {
+    console.log(childSnapshot.val());
+
+    // These lines store everything in a variable
+    var train = childSnapshot.val().train;
+    var destination = childSnapshot.val().destination;
+    var firstTrain = childSnapshot.val().firstTrain;
+    var frequency = childSnapshot.val().frequency;
+
+    // Logging data again to ensure that the code is functioning as expected
+    console.log(train);
+    console.log(destination);
+    console.log(firstTrain);
+    console.log(frequency);
+
+    // Need to add in time elements using moment js
+
+
+
+
+
+
+
+
+    // Create the new rows in table
+    var newRow = $("<tr>").append(
+        $("<td>").text(trainName),
+        $("<td>").text(destination),
+        $("<td>").text(frequency),
+        $("<td>").text(nextArrival),
+        $("<td>").text(minutesAway)
+    );
+
+    // Append the new row to the table
+    $("#train-table > tbody").append(newRow);
+});
