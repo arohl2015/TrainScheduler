@@ -76,10 +76,10 @@ database.ref().on("child_added", function (childSnapshot) {
     var trainTime = moment().hours(hours).minutes(minutes);
     var trainMin = moment().diff(trainTime, "minutes");
     var minutesAway = Math.abs(trainMin % frequency);
-    var nextArrival = moment().add(minutesAway, "minutes").format("hh:mm A");
+    var nextArrival = moment().add(minutesAway, "minutes").format("HH:mm");
 
-    // console.log(minutesAway);
-    // console.log(nextArrival);
+    console.log(minutesAway);
+    console.log(nextArrival);
 
     // Create the new rows in table
     var newRow = $("<tr>").append(

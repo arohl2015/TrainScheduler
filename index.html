@@ -22,36 +22,36 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Link to Myersweb Reset Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--Link to Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Diplomata+SC&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Webpage Container -->
     <div class="container">
-
         <div class="jumbotron text-center">
             <!--adding display class changes size of the font within the jumbotron-->
-            <h1 class="display-2">The A-Train</h1>
+            <h1 class="display-4">The A-Train</h1>
             <!--paragraph attribute-->
-            <p class="lead">This Train Keeps A'Rollin</p>
+            <p class="lead">"This Train Keeps A'Rollin"</p>
         </div>
 
         <div class="row">
-
             <div class="col-md-12">
-
                 <!-- Current Train Schedule using Bootstrap table and card creation-->
                 <div class="card mb-4">
                     <div class="card-header">Current Train Schedule</div>
                     <div class="card-body">
-                        <table class="table table-sm table-hover" id="train-table">
+
+                        <table class="table table-md table-hover table-bordered" id="train-table">
                             <thead>
                                 <tr>
-                                    <th scope="col">Train Name</th>
-                                    <th scope="col">Destination</th>
-                                    <th scope="col">Frequency (Min)</th>
-                                    <th scope="col">Next Arrival</th>
-                                    <th scope="col">Minutes Away</th>
+                                    <th class="header">Train Name</th>
+                                    <th class="header">Destination</th>
+                                    <th class="header">Frequency (Min)</th>
+                                    <th class="header">Next Arrival</th>
+                                    <th class="header">Minutes Away</th>
                                 </tr>
                             </thead>
                             <tbody>

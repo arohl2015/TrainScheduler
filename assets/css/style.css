@@ -3,5 +3,27 @@
 body {
     background-image: url(../images/train-rails.jpg);
     background-repeat: no-repeat;
-    opacity: .8;
+    opacity: .9;
+}
+
+.jumbotron {
+    font-family: 'Diplomata SC', cursive;
+    background-color: silver;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.header {
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black; 
 }
