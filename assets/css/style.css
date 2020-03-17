@@ -14,11 +14,17 @@ body {
 .card-header {
     font-size: 20px;
     font-weight: bolder;
-    color: darkblue;
+    font-family: 'Nova Square', cursive;
+    background-color: silver;
 }
 
 .header {
     font-weight: bold;
+    font-family: 'Nova Square', cursive;
+}
+
+.form-group {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 table {
@@ -27,3 +33,10 @@ table {
     margin-right: auto;
     color: black; 
 }
+
+#add-train-btn {
+    background-color: black;
+    border: 2px solid silver;
+    font-family: 'Nova Square', cursive;
+}
+
