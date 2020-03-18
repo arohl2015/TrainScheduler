@@ -26,5 +26,5 @@ In this assignment, you'll create a train schedule application that incorporates
 The theme chosen to fit the assignment was songs about trains. The resource I used can be found via this link: https://www.ranker.com/list/songs-about-trains/ranker-music
 
 #### Train Scheduler:
-YOu can acess the scheduler here: https://arohl2015.github.io/TrainScheduler/
+You can acess the scheduler here: https://arohl2015.github.io/TrainScheduler/
 
