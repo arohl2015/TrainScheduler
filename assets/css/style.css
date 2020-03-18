@@ -6,6 +6,14 @@ body {
     opacity: .9;
 }
 
+#train-table {
+    background-color: blanchedalmond;
+}
+
+.form-group, .card-body {
+    background-color: blanchedalmond;
+}
+
 .jumbotron {
     font-family: 'Diplomata SC', cursive;
     background-color: silver;
@@ -36,7 +44,7 @@ table {
 
 #add-train-btn {
     background-color: black;
-    border: 2px solid silver;
+    border: 3px solid silver;
     font-family: 'Nova Square', cursive;
 }
 
