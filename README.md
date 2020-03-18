@@ -13,3 +13,18 @@ In this assignment, you'll create a train schedule application that incorporates
 
 * Code the app to calculate when the next train will arrive; this should be relative to the current time.
 * Users from many different machines must be able to view same train times.
+
+### Resources:
+* HTML-5
+* BootStrap
+* CSS
+* Google Fonts
+* Jquery and JavaScript
+* Firebase
+
+### Theme:
+The theme chosen to fit the assignment was songs about trains. The resource I used can be found via this link: https://www.ranker.com/list/songs-about-trains/ranker-music
+
+#### Train Scheduler:
+YOu can acess the scheduler here: https://arohl2015.github.io/TrainScheduler/
+
